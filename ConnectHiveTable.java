@@ -358,7 +358,7 @@ public class ConnectHiveTable {
 		System.out
 				.println("Usage: CreateHiveTable <ClusterHostname> <REALM> <ExternalTableLocation>");
 		System.out
-				.println("e.g.,  CreateHiveTable aaa-cstdt-r4-n05.svr.us.AnandCompany.net NAEAST.AD.JPMORGANCHASE.COM /user/e777505");
+				.println("e.g.,  CreateHiveTable servername.svr.us.AnandCompany.net realmname /user/username");
 		System.exit(1);
 	}
 
