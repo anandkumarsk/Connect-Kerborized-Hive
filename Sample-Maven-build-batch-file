@@ -1,0 +1,7 @@
+  call "c:\Program Files\Apache\Maven\bin\mvn" package
+
+echo open sftp://username:passwd@server -hostkey="server's hostkey" >> ftpcmd.dat
+echo put "your jar file path in Target folder" >> ftpcmd.dat
+echo exit >> ftpcmd.dat
+winscp.com /script=ftpcmd.dat
+del ftpcmd.dat
